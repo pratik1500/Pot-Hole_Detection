@@ -26,7 +26,7 @@ for dirname, _, filenames in os.walk('Data/normal'):
         print(filename)
         normal_images.append(np.array(img))
 
-
+# this is for the commit
 train_loader = torch.utils.data.DataLoader(normal_images, batch_size=12,
                                            shuffle=True, num_workers=2)
 dataiter = next(iter(train_loader))

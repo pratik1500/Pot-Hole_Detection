@@ -7,6 +7,7 @@ from random import shuffle
 import torch
 import matplotlib.pyplot as plt
 from skimage import io, transform
+# this is for the commit
 
 
 def data__loader():
